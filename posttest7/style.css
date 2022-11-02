@@ -1,0 +1,167 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f9fafc;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrap{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.guitar-category{
+    padding-top: 10px;
+    text-align: center;
+    color: #616060;
+    font-weight: bold;
+}
+.logo img{
+    padding: 10px 40px;
+    width: 100px;
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+.darkmode{
+    position: relative;
+    float: left;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 75px;
+    position: sticky;
+    top: 0;
+    background-color: #0d1322;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 35px 0px 15px ;
+}
+
+.image-row{
+    margin-left: 100px;
+    display: flex;
+    flex-direction:inherit;
+    padding: 10px 15px 5px 15px;
+    overflow-wrap: normal;
+
+}
+
+.image{
+    color: #fafbfc;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    background-color: rgb(3, 6, 39);
+    border-radius: 5px;
+    
+}
+#nama{
+    text-decoration: none;
+    color: #c2c4c7;
+}
+
+.footer{
+    background-color: #000000;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.image:hover{
+    box-shadow: 0px 0px 10px 0px rgb(71, 170, 228);
+}
+.row{
+    margin: 10px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    color: #615f5f;
+}
+.about-us{
+    color: #616060;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.about-us h1{
+    margin-top: 10px;
+    text-align: center;
+}
+.about-us h2{
+    margin-top: 10px;
+}
+.about-us img{
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 30%;
+}
+
+label{
+    position: absolute;
+    float: left;
+    width: 45px;
+    height: 25px;
+    right: 65px;
+    top: 50px;
+    border: 2px white solid;
+    border-radius: 20px;
+}
+label:before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    right: 20px;
+    top: 1px;
+    border: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: black;
+    transition: 2s;
+}
+label.active:before{
+    left: 24px;
+    background: #f9fafc;
+}
+
+
+body.night{
+    background-color: #030c2b;
+    color: white;
+}
+
+.guitar-category.night{
+    color: white;
+}
+
+.tampilanform{
+    text-align: left;
+    margin-left: 40%;
+    justify-content: space-between;
+}
